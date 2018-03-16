@@ -11,11 +11,11 @@ public class Task {
     private boolean done;
     private String project;
 
-public Task(String title,Date dueDate,String project){
-    this.setTitle(title);
-    this.setDueDate(dueDate);
-    this.done=false;
-    this.setProject(project);
+    public Task(String title,Date dueDate,String project){
+        this.setTitle(title);
+        this.setDueDate(dueDate);
+        this.done=false;
+        this.setProject(project);
     }
 
 
@@ -55,12 +55,12 @@ public Task(String title,Date dueDate,String project){
 
 
     public void printTask(){
-    System.out.println("This is printing task");
-    System.out.println("-----------------------------");
-    System.out.println("The title is :"+ this.getTitle());
-    System.out.println("The due date is :"+ this.getDueDate());
-    System.out.println("The project is :"+ this.getProject());
-    System.out.println("-----------------------------");
+        System.out.println("This is printing task");
+        System.out.println("-----------------------------");
+        System.out.println("The title is :"+ this.getTitle());
+        System.out.println("The due date is :"+ this.getDueDate());
+        System.out.println("The project is :"+ this.getProject());
+        System.out.println("-----------------------------");
 
     }
 
