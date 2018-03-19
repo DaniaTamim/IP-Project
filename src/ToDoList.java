@@ -44,15 +44,17 @@ public class ToDoList {
     // Print arraylist
     public void printArrayList(ArrayList<Task> tasks) {
         for (Task t : tasks) {
-            t.printTask();
+            t.toString();
 
         }
     }
 
     // Get list of all the tasks
     public void showTaskList() {
+        printArrayList(tasks);
+
         for (Task task : tasks) {
-            task.printTask();
+            task.toString();
 
         }
 

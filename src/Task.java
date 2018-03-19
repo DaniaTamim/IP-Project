@@ -54,13 +54,9 @@ public class Task {
     }
 
 
-    public void printTask(){
-        System.out.println("This is printing task");
-        System.out.println("-----------------------------");
-        System.out.println("The title is :"+ this.getTitle());
-        System.out.println("The due date is :"+ this.getDueDate());
-        System.out.println("The project is :"+ this.getProject());
-        System.out.println("-----------------------------");
+    public String toString(){
+        return " * "+getTitle() + "The due date is : " + getDueDate() + "The project is : " + getProject() + "Task is done" +isDone() ;
+
 
     }
 
